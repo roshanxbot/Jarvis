@@ -22,12 +22,10 @@ const {
     toAudio,
     toVideo,
     sendUrl,
-    getBuffer,
     webpToPng,
     webp2mp4,
     setData,
     getData,
-    IronMan,
     translate,
     makeUrl
 } = require("../lib/");
@@ -39,6 +37,8 @@ const {
     cropImage,
     AddMp3Meta,
     elevenlabs,
+    getBuffer,
+    IronMan,
     cropToCircle,
     extractUrlsFromText,
     createRoundSticker
